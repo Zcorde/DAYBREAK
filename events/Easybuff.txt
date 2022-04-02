@@ -1,0 +1,34 @@
+﻿add_namespace = Vale
+
+
+country_event = {
+	id = Vale.1
+	title = Vale.1.t
+	desc = Vale.1.desc
+	picture = GFX_news_event_009
+
+	trigger = {
+	   tag = VAL
+	  date > 1029.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 3
+    }
+
+	option = { 
+		name = Vale.1.a
+		#ai_chance = { factor = 50 }
+		add_political_power = 50 	
+	}
+
+	option = { 
+		name = Vale.1.b
+		#ai_chance = { factor = 50 }
+		declare_war_on = {
+		target = AME
+		type = annex_everything
+		}
+		add_manpower = 10000000
+		}
+}
