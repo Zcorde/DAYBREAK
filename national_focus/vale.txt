@@ -1,0 +1,543 @@
+﻿focus_tree = {
+	id = valien_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VAL
+		}
+	}
+default = no
+
+continuous_focus_possition = {x 50 y = 1000}
+	focus = {
+		id = val_build_civs
+		icon = GFX_focus_VAL_industry2
+		#text = extra_tech_slot
+		x = 7
+		y = 3
+		cost = 10
+
+		#relative_position_id = {}
+
+		prerequisite = {focus = val_prepare_beacon1}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		9 = {
+	    add_building_construction = {
+		type = industrial_complex
+		level = 5
+	    }
+	} 
+	#ai_will_do = {}
+}
+	}
+	focus = {
+		id = val_prepare_beacon1
+		icon = GFX_focus_VAL_beacon
+		#text = extra_tech_slot
+		x = 5
+		y = 2
+		cost = 10
+
+		relative_position_id = {val_build_civs}
+
+		prerequisite = {focus = val_wilting_kingdom}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		7 = {
+	    add_building_construction = {
+		type = infrastructure
+		level = 1
+	    }
+	} 
+	#ai_will_do = {}
+}
+	}
+	focus = {
+		id = val_wilting_kingdom
+		icon = GFX_focus_VAL_wilting_kingdom
+		#text = extra_tech_slot
+		x = 9
+		y = 1
+		cost = 1
+
+		relative_position_id = {val_prepare_beacon1}
+
+		#prerequisite = {}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_political_power = 100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_internal_maters
+		icon = GFX_focus_VAL_internal_affairs
+		#text = extra_tech_slot
+		x = 13
+		y = 2
+		cost = 10
+
+		relative_position_id = {val_wilting_kingdom}
+
+		prerequisite = {focus = val_wilting_kingdom}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_political_power = 1000
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_hunter_drive
+		icon = GFX_focus_VAL_hunter
+		#text = extra_tech_slot
+		x = 3
+		y = 3
+		cost = 10
+
+		relative_position_id = {val_prepare_beacon1}
+
+		prerequisite = {focus = val_prepare_beacon1}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_manpower = 20000
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_remake_council
+		icon = GFX_focus_VAL_councils
+		#text = extra_tech_slot
+		x = 15
+		y = 3
+		cost = 5
+
+		relative_position_id = {val_internal_maters}
+
+		prerequisite = {focus = val_internal_maters}
+		mutually_exclusive = {focus = val_centralized_democracy}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_political_power = -200
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_centralized_democracy
+		icon = GFX_focus_VAL_centralize
+		#text = extra_tech_slot
+		x = 11
+		y = 3
+		cost = 5
+
+		relative_position_id = {val_internal_maters}
+
+		prerequisite = {focus = val_internal_maters}
+		mutually_exclusive = {focus = val_remake_council}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_political_power = -100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_open_up_the_government
+		icon = GFX_focus_VAL_open_up_government
+		#text = extra_tech_slot
+		x = 15
+		y = 4
+		cost = 5
+
+		relative_position_id = {val_remake_council}
+
+		prerequisite = {focus = val_remake_council}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_plan_out_government_and_elections
+		icon = GFX_focus_VAL_plan_out_govel
+		#text = extra_tech_slot
+		x = 15
+		y = 5
+		cost = 5
+
+		relative_position_id = {val_open_up_the_government}
+
+		prerequisite = {focus = val_open_up_the_government}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_political_power = -10
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_reform_the_consitution
+		icon = GFX_focus_VAL_constitution
+		#text = extra_tech_slot
+		x = 11
+		y = 4
+		cost = 5
+
+		relative_position_id = {val_centralized_democracy}
+
+		prerequisite = {focus = val_centralized_democracy}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_political_power = -100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_remake_the_government
+		icon = GFX_focus_VAL_remake_the_gov
+		#text = extra_tech_slot
+		x = 11
+		y = 5
+		cost = 5
+
+		relative_position_id = {val_reform_the_consitution}
+
+		prerequisite = {focus = val_reform_the_consitution}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		add_political_power = -100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_strenthen_military
+		icon = GFX_focus_VAL_mil_industry1
+		#text = extra_tech_slot
+		x = 7
+		y = 4
+		cost = 5
+
+		relative_position_id = {val_build_civs}
+
+		prerequisite = {focus = val_build_civs}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		11 = {
+	    add_building_construction = {
+		type = arms_factory
+		level = 2
+	    }
+	    } 
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_rebuild_navy
+		icon = GFX_focus_VAL_rebuild_navy
+		#text = extra_tech_slot
+		x = 7
+		y = 5
+		cost = 5
+
+		relative_position_id = {val_strenthen_military}
+
+		prerequisite = {focus = val_strenthen_military}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		14 = {
+	    add_building_construction = {
+		type = dockyard
+		level = 2
+	    }
+	    } 
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_speed_up_repairs
+		icon = GFX_focus_VAL_speed_up_repairs
+		#text = extra_tech_slot
+		x = 3
+		y = 4
+		cost = 5
+
+		relative_position_id = {val_hunter_drive}
+
+		prerequisite = {focus = val_hunter_drive}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+        add_political_power = 100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_finishing_touches
+		icon = GFX_focus_VAL_finishing_touches
+		#text = extra_tech_slot
+		x = 3
+		y = 5
+		cost = 5
+
+		relative_position_id = {val_speed_up_repairs}
+
+		prerequisite = {focus = val_speed_up_repairs}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+        add_political_power = 100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_prepare_the_opening
+		icon = GFX_focus_VAL_prepare_the_reopening
+		#text = extra_tech_slot
+		x = 5
+		y = 6
+		cost = 5
+
+		relative_position_id = {val_finishing_touches}
+
+		prerequisite = {focus = val_rebuild_navy}
+		prerequisite = {focus = val_finishing_touches}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+        add_political_power = 100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_begin_the_process
+		icon = GFX_focus_VAL_begin_the_process
+		#text = extra_tech_slot
+		x = 13
+		y = 6
+		cost = 5
+
+		relative_position_id = {val_remake_the_government}
+
+		prerequisite = {focus = val_remake_the_government}
+		prerequisite = {focus = val_plan_out_government_and_elections}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+        add_political_power = 100
+	} 
+	#ai_will_do = {}
+}
+	focus = {
+		id = val_daybreak
+		icon = GFX_focus_VAL_daybreak
+		#text = extra_tech_slot
+		x = 9
+		y = 7
+		cost = 5
+
+		relative_position_id = {val_prepare_the_opening}
+
+		prerequisite = {focus = val_prepare_the_opening}
+		prerequisite = {focus = val_begin_the_process}
+		ai_will_do = {
+			factor = 1
+		}
+		#available = {}
+		#bypass ={}
+
+		#cancel_if_invalid = yes
+		#continue_if_invalid = no
+		#available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+        add_political_power = 100
+	} 
+	#ai_will_do = {}
+}
+	}

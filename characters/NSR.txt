@@ -1,0 +1,14 @@
+characters={
+	NSR_Glinda_Goodwitch={
+		name="Glinda Goodwitch"
+		portraits={
+			civilian={
+				large="GFX_portrait_NSR_Glinda_Goodwitch"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+		}
+	}
+}

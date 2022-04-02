@@ -1,0 +1,14 @@
+characters={
+	VYT_William_Forest={
+		name="William Forest"
+		portraits={
+			civilian={
+				large="GFX_portrait_VYT_William_Forest"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+		}
+	}
+}

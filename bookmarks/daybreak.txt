@@ -1,0 +1,51 @@
+bookmarks = {
+	bookmark = {
+		name = "DAYBREAK_NAME"
+		desc = "DAYBREAK_DESC"
+		date = 1029.1.1.12
+		picture = "GFX_select_date_1029"
+		default_country = "VAL"
+		default = yes
+		
+		"VAL"={
+			history = "VAL_DAYBREAK_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"VYT"={
+			history = "VYT_DAYBREAK_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"TPZ"={
+			history = "TPZ_DAYBREAK_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"NSR"={
+			history = "NSR_DAYBREAK_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AME"={
+			history = "AME_DAYBREAK_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+    }
+}

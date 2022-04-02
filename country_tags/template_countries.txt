@@ -1,0 +1,6 @@
+TST = "countries/Test.txt"
+VAL = "countries/Vale.txt"
+VYT = "countries/Vytal.txt"
+TPZ = "countries/Topaz.txt"
+NSR = "countries/Sanus.txt"
+AME = "countries/Ambre.txt"

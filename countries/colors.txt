@@ -1,0 +1,24 @@
+TST = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+VAL = {
+	color = rgb { 39 114 83 }
+	color_ui = rgb { 74 147 255 }
+}
+VYT = {
+	color = rgb { 131 15 112 }
+	color_ui = rgb { 74 147 255 }
+}
+TPZ = {
+	color = rgb { 211 113 33 }
+	color_ui = rgb { 74 147 255 }
+}
+NSR = {
+	color = rgb { 69 188 131 }
+	color_ui = rgb { 74 147 255 }
+}
+AME = {
+	color = rgb { 232 182 22 }
+	color_ui = rgb { 74 147 255 }
+}
