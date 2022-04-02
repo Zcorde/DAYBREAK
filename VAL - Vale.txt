@@ -1,0 +1,22 @@
+capital = 2
+
+oob = "VAL_1029"
+
+set_war_support = 0.1
+set_stability = 0.8
+set_convoys = 5
+
+recruit_character = VAL_Glinda_Goodwitch
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 88
+	fascism = 2
+	communism = 0
+	neutrality = 10
+}
