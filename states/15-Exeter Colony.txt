@@ -1,0 +1,24 @@
+state={
+	id=15
+	name="STATE_15"
+				history={
+		owner = VAL
+		victory_points = {
+			1858 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 3
+		}
+		add_core_of = VAL
+	}
+	provinces={
+		230 684 772 1858 1896 1905 2282 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=7024
+        state_category = town
+}

@@ -1,0 +1,23 @@
+state={
+	id=25
+	name="STATE_25"
+		history = {
+		owner = VYT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			radar_station = 2
+		}
+		add_core_of = VYT
+		victory_points = {
+			2072 4
+		}
+	}
+	provinces={
+		1029 1558 2072 2554 2575 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=20024
+        state_category = town
+}

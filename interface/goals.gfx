@@ -1,0 +1,159 @@
+spriteTypes = {	
+
+    SpriteType = {
+	name = "GFX_goal_continuous_air_production"
+	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_non_factory_construct"
+	texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_reduce_training_time"
+	texturefile = "gfx/interface/goals/goal_continuous_reduce_training_time.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_boost_freedom"
+	texturefile = "gfx/interface/goals/goal_continuous_boost_freedom.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_suppression"
+	texturefile = "gfx/interface/goals/goal_continuous_suppression.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_restrict_freedom"
+	texturefile = "gfx/interface/goals/goal_continuous_restrict_freedom.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_def_against_influence"
+	texturefile = "gfx/interface/goals/goal_continuous_def_against_influence.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_research"
+	texturefile = "gfx/interface/goals/goal_continuous_research.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_increase_nu"
+	texturefile = "gfx/interface/goals/goal_continuous_increase_nu.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_repairments"
+	texturefile = "gfx/interface/goals/goal_continuous_repairments.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_naval_production"
+	texturefile = "gfx/interface/goals/goal_continuous_naval_production.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_continuous_armor_production"
+	texturefile = "gfx/interface/goals/goal_continuous_armor_production.dds"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_focus_VAL_wilting_kingdom"
+	texturefile = "gfx/interface/goals/focus_VAL_wilting_kingdom.dds"			
+	}
+
+		SpriteType = {
+	name = "GFX_focus_VAL_industry2"
+	texturefile = "gfx/interface/goals/focus_VAL_industry2.dds"			
+	}
+
+			SpriteType = {
+	name = "GFX_focus_VAL_open_up_government"
+	texturefile = "gfx/interface/goals/focus_VAL_open_up_government.dds"			
+	}
+
+				SpriteType = {
+	name = "GFX_focus_VAL_plan_out_govel"
+	texturefile = "gfx/interface/goals/focus_VAL_plan_out_govel.dds"			
+	}
+
+					SpriteType = {
+	name = "GFX_focus_VAL_daybreak"
+	texturefile = "gfx/interface/goals/focus_VAL_daybreak.dds"			
+	}
+
+				SpriteType = {
+	name = "GFX_focus_VAL_remake_the_gov"
+	texturefile = "gfx/interface/goals/focus_VAL_remake_the_gov.dds"			
+	}
+
+				SpriteType = {
+	name = "GFX_focus_VAL_prepare_the_reopening"
+	texturefile = "gfx/interface/goals/focus_VAL_prepare_the_reopening.dds"			
+	}
+
+				SpriteType = {
+	name = "GFX_focus_VAL_begin_the_process"
+	texturefile = "gfx/interface/goals/focus_VAL_begin_the_process.dds"			
+	}
+
+				SpriteType = {
+	name = "GFX_focus_VAL_speed_up_repairs"
+	texturefile = "gfx/interface/goals/focus_VAL_speed_up_repairs.dds"			
+	}
+
+					SpriteType = {
+	name = "GFX_focus_VAL_finishing_touches"
+	texturefile = "gfx/interface/goals/focus_VAL_finishing_touches.dds"			
+	}
+
+						SpriteType = {
+	name = "GFX_focus_VAL_rebuild_navy"
+	texturefile = "gfx/interface/goals/focus_VAL_rebuild_navy.dds"			
+	}
+
+			SpriteType = {
+	name = "GFX_focus_VAL_mil_industry1"
+	texturefile = "gfx/interface/goals/focus_VAL_mil_industry1.dds"			
+	}
+
+		SpriteType = {
+	name = "GFX_focus_VAL_internal_affairs"
+	texturefile = "gfx/interface/goals/focus_VAL_internal_affairs.dds"			
+	}
+
+			SpriteType = {
+	name = "GFX_focus_VAL_beacon"
+	texturefile = "gfx/interface/goals/focus_VAL_beacon.dds"			
+	}
+
+			SpriteType = {
+	name = "GFX_focus_VAL_councils"
+	texturefile = "gfx/interface/goals/focus_VAL_councils.dds"			
+	}
+
+			SpriteType = {
+	name = "GFX_focus_VAL_centralize"
+	texturefile = "gfx/interface/goals/focus_VAL_centralize.dds"			
+	}
+
+			SpriteType = {
+	name = "GFX_focus_VAL_constitution"
+	texturefile = "gfx/interface/goals/focus_VAL_constitution.dds"			
+	}
+
+				SpriteType = {
+	name = "GFX_focus_VAL_hunter"
+	texturefile = "gfx/interface/goals/focus_VAL_hunter.dds"			
+	}
+
+}

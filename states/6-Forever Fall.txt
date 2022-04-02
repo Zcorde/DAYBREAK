@@ -1,0 +1,23 @@
+state={
+	id=6
+	name="STATE_6"
+
+			history={
+		owner = VAL
+		victory_points = {
+		    641 7
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		641 692 1474 1560 1710 1793 1973 2743 2749 2771 2786 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=6024
+        state_category = rural
+}

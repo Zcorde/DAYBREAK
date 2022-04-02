@@ -1,0 +1,23 @@
+state={
+	id=9
+	name="STATE_9"
+
+				history={
+		owner = VAL
+		victory_points = {
+		1466 13
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = VAL
+	}
+	provinces={
+		981 983 1131 1466 1623 1663 1958 2264 2303 2881 2902 2923 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=31041
+        state_category = town
+}

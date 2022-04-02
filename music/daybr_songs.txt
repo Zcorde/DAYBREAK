@@ -1,0 +1,9 @@
+music_station = "daybreak_radio"
+
+##### Equestria Peace ######
+music = {
+	song = "DayBreak_Horizons"
+    chance = {
+		factor = 30
+	}
+}

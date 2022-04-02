@@ -1,0 +1,26 @@
+
+state={
+	id=29
+	name="STATE_29"
+
+	history={
+		owner = VYT
+		add_core_of = VYT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			788 4
+		}
+	}
+
+	provinces={
+		117 630 788 864 917 944 1053 1156 1731 2630 2653 12004 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+        manpower=72304
+        state_category = rural
+}

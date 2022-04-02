@@ -1,0 +1,23 @@
+state={
+	id=36
+	name="STATE_36"
+		history = {
+		owner = NSR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		add_core_of = NSR
+		victory_points = {
+			2001 70
+		}
+	}
+	provinces={
+		70 903 1060 1061 1087 1132 1167 1291 1455 1662 1709 1742 1900 2001 2110 2268 2286 2299 2666 2675 2676 2677 2687 2688 2694 2698 2709 2714 2715 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=634505
+        state_category = city
+}

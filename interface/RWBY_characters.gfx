@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_VAL_Glinda_Goodwitch"
+		texturefile = "gfx/leaders/VAL/portrait_VAL_Glinda_Goodwitch.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_VYT_William_Forest"
+		texturefile = "gfx/leaders/VYT/portrait_VYT_William_Forest.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_TPZ_Glinda_Goodwitch"
+		texturefile = "gfx/leaders/TPZ/portrait_TPZ_Glinda_Goodwitch.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_NSR_Glinda_Goodwitch"
+		texturefile = "gfx/leaders/NSR/portrait_NSR_Glinda_Goodwitch.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_AME_Glinda_Goodwitch"
+		texturefile = "gfx/leaders/AME/portrait_AME_Glinda_Goodwitch.dds"
+	}
+}

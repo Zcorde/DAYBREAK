@@ -1,0 +1,10 @@
+﻿l_english:
+ Vale.1.t:0 "Event Testing"
+ Vale.1.desc:0 "Phase one is now 70% complete."
+ Vale.1.a:0 "test sucsessful"
+ Vale.1.b:0 "begin phase 2 now"
+ tut.0.t:0 "Our first event"
+ tut.0.d:0 "This is my first event"
+ tut.0.a:0 "Cool!"
+ tut.0.a:0 "Not Cool!"
+

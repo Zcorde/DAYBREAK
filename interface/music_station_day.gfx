@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_daybreak_radio_cover"
+		texturefile = "gfx//interface//topbar//musicplayer//daybreak_radio_cover.dds"
+		noOfFrames = 2
+	}
+}

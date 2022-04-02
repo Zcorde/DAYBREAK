@@ -1,0 +1,22 @@
+state={
+	id=35
+	name="STATE_35"
+		history = {
+		owner = NSR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = NSR
+		victory_points = {
+			760 7
+		}
+	}
+	provinces={
+		257 551 760 853 1178 1494 1972 2027 2052 2176 2324 2330 2668 2679 2713 2722 2727 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=62045
+        state_category = rural
+}

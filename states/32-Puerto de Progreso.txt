@@ -1,0 +1,24 @@
+state={
+	id=32
+	name="STATE_32"
+		history = {
+		owner = NSR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+		}
+		add_core_of = NSR
+		victory_points = {
+			1708 100
+		}
+	}
+	provinces={
+		1411 1688 1708 1878 1915 2691 2697 2701 2702 2704 2716 2721 2725 2731 2732 2740 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=813013
+        state_category = large_city
+}

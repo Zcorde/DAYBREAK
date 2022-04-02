@@ -1,0 +1,12 @@
+## Daybreak ###
+music = {
+	name = "maintheme"
+	file = "DayBreak_Horizons.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "DayBreak_Horizons"
+	file = "DayBreak_Horizons.ogg"
+	volume = 0.9
+}

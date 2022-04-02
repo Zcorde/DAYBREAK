@@ -1,0 +1,26 @@
+state={
+	id=2
+	name="STATE_2"
+
+		history={
+		owner = VAL
+		victory_points = {
+			1694 50
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 6
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		262 767 1482 1552 1694 1773 1791 2105 2230 2389 2779 2782 2789 2790 2792 2795 2805 2810 2814 2816 2817 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=890534
+        state_category = megalopolis
+}

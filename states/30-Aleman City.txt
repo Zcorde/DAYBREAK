@@ -1,0 +1,23 @@
+state={
+	id=30
+	name="STATE_30"
+		history = {
+		owner = TPZ
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		add_core_of = TPZ
+		victory_points = {
+			28 3
+		}
+	}
+	provinces={
+		315 412 687 1393 2124 2143 2662 2686 2712 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=514943
+        state_category = city
+}

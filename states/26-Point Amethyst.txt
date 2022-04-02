@@ -1,0 +1,27 @@
+
+state={
+	id=26
+	name="STATE_26"
+
+	history={
+		owner = VYT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = VYT
+		victory_points = {
+			1045 21
+		}
+	}
+
+	provinces={
+		754 878 1045 1236 1263 1868 2147 2586 2587 2605 2606 12003 
+	}
+	manpower=635925
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

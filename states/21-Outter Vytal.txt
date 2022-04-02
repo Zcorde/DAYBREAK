@@ -1,0 +1,21 @@
+state={
+	id=21
+	name="STATE_21"
+		history = {
+		owner = VYT
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = VYT
+		victory_points = {
+			2576 15
+		}
+	}
+	provinces={
+		132 1116 1733 1981 2227 2558 2562 2576 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower50553
+        state_category = large_town
+}
